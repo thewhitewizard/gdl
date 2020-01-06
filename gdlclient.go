@@ -8,10 +8,10 @@ import (
 )
 
 var (
-		// ErrUnsetAPIKey comment
+	// ErrUnsetAPIKey comment
 	ErrUnsetAPIKey = errors.New("unset API key")
 
-	// ErrJCDecauxInternal comment
+	// ErrGDLInternal comment
 	ErrGDLInternal = errors.New("internal gdl error (status code 500)")
 
 	// ErrUnsupportedStatusCode comment
